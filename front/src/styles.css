@@ -29,6 +29,7 @@
 .chatbot-footer{border-top:1px solid #e4ecef;background:#fff;padding:12px 14px 10px}
 .chatbot-input{height:38px;display:flex;align-items:center;justify-content:space-between;border:1px solid #d9e4e9;border-radius:6px;background:#f5f7f8;color:#9eacb5;padding:0 10px;font-size:11px;cursor:not-allowed}
 .chatbot-footer small{display:block;margin-top:7px;color:#92a3ad;text-align:center;font-size:10px}
+.chatbot-footer .chatbot-notice{color:#9a6b24;line-height:1.5}
 @keyframes chatbot-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:650px){.chatbot-dock{right:16px;bottom:calc(16px + env(safe-area-inset-bottom))}.chatbot-panel{height:410px;max-height:calc(100dvh - 32px - env(safe-area-inset-bottom))}}
 @media(prefers-reduced-motion:reduce){.chatbot-panel{animation:none}.chatbot-trigger{transition:none}}

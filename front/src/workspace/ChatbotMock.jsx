@@ -102,6 +102,7 @@ export default function ChatbotMock() {
               <input ref={inputRef} className="chatbot-input" value={draft} onChange={(event) => setDraft(event.target.value)} placeholder="พิมพ์คำถามของคุณ..." aria-label="พิมพ์คำถามของคุณ" maxLength={1000} disabled={busy} />
               <button className="chatbot-send" type="submit" aria-label="ส่งคำถาม" disabled={busy || !draft.trim()}><Send size={16} /></button>
             </form>
+            <small className="chatbot-notice">AI Chatbot อาจใช้ไม่ได้เป็นบางครั้ง เนื่องจากระบบยังไม่เสถียร</small>
             <small>คำตอบสร้างจากข้อมูลที่คุณมีสิทธิ์เข้าถึง</small>
           </footer>
         </section>
